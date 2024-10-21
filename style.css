@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    font-family:  "Universal Sans Text" ,-apple-system, Arial, sans-serif, serif;
+    color: white;
+}
+.main{
+    width: 100%;
+}
+.hero{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.hero img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    font-display: row;
+}
+nav ul{
+    font-weight: 500;
+    font-size: 0.9em;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .part-one{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav .part-one img{
+    position: relative;
+    left: 20%;
+    height: 100%;
+    width: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav .part-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+}
+nav .part-three{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 8px;
+    justify-content: end;
+    height: 100%;
+    width: 30%;
+}
+nav .part-three img{
+    height: 25px;
+    width: 25px;
+}
+.the-secound-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.the-secound-sec .inner{
+    margin-top: 30px;
+    height: 93%;
+    width: 92%;
+    background-image: url(Homepage-Model-Y-Desktop-US-v2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.inner h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 3.2em;
+}
+.inner p{
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 1.6em;
+}
+.inner h6{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+.inner button{
+    border-radius: 5px;
+    top: 65%;
+    left: 30%;
+    position: relative;
+    border: none;
+    width: 20%;
+    padding: 12px;
+}
+.inner .blue{
+    color: #fff;
+    background-color: #3E6AE1;
+}
+.inner .white{
+    color: black;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+.the-third-sec{
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.the-third-sec .inner-two{
+    height: 93%;
+    width: 92%;
+    background-image: url(Homepage-Model-3-Desktop-US.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.inner-two h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 3.2em;
+}
+.inner-two p{
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 1.6em;
+}
+.inner-two h6{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+.inner-two button{
+    border-radius: 5px;
+    top: 57%;
+    left: 28%;
+    position: relative;
+    border: none;
+    width: 22%;
+    padding: 12px;
+}
+.inner-two .blue{
+    color: #fff;
+    background-color: #3E6AE1;
+}
+.inner-two .white{
+    color: black;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+.the-fourth-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.the-fourth-sec .inner-three{
+    height: 100%;
+    width: 92%;
+    background-image: url(Homepage-Model-X-Desktop-US.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.inner-three h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 3.3em;
+}
+.inner-three p{
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7em;
+}
+.inner-three h6{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 1em;
+}
+.inner-three button{
+    border-radius: 5px;
+    top: 57%;
+    left: 28%;
+    position: relative;
+    border: none;
+    width: 22%;
+    padding: 12px;
+}
+.inner-three .blue{
+    color: #fff;
+    background-color: #3E6AE1;
+}
+.inner-three .white{
+    color: black;
+    background-color: #fff;
+    margin-left: 15px;
+}
+.the-fifth-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.the-fifth-sec .inner-fourth{
+    height: 100%;
+    width: 92%;
+    background-image: url(Homepage-Model-S-Desktop-US.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: -10px;
+}
+.inner-fourth h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 3.3em;
+}
+.inner-fourth p{
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7em;
+}
+.inner-fourth h6{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 1em;
+}
+.inner-fourth button{
+    border-radius: 5px;
+    top: 58%;
+    left: 28%;
+    position: relative;
+    border: none;
+    width: 22%;
+    padding: 12px;
+}
+.inner-fourth .blue{
+    color: #fff;
+    background-color: #3E6AE1;
+}
+.inner-fourth .white{
+    color: black;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+.the-sixth-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.the-sixth-sec .inner-fifth{
+    height: 93%;
+    width: 92%;
+    background-image: url(Homepage-Cybertruck-Desktop-v3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.image{
+    position: relative;
+    left: 35%;
+    height: 31%;
+    width: 31%;
+}
+.inner-fifth button{
+    position: relative;
+    top: 60%;
+    left: -30px;
+    border: none;
+    width: 22%;
+    padding: 14px;
+    transition: all ease-in-out 0.5s;
+}
+.inner-fifth .blue{
+    border-top: 3px solid #948481;
+    color: #9E908F;
+    background-color: #1E1513;
+}
+.inner-fifth .white{
+    margin-left: 10px;
+    background-color: #1E1513;
+    color: #9E908F;
+}
+.inner-fifth button:hover{
+    background-color: #443b39;
+}
+.the-seventh-sec{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    height: 100vh;
+    width: 100%;
+    margin-top: -10px;
+}
+.inner-sixth{
+    border-radius: 10px;
+    background-image: url(Homepage-SolarPanels-01-Desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 99%;
+    width: 45.5%;
+   background-color: red;
+}
+.inner-sixth h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 57px;
+    font-size: 3.1em;
+}
+.inner-sixth h6{
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 1.6em;
+}
+.inner-sixth button{
+    border-radius: 5px;
+    top: 65%;
+    left: 4%;
+    position: relative;
+    border: none;
+    width: 43%;
+    padding: 12px;
+}
+.inner-sixth .blue{
+    color: #fff;
+    background-color: #3E6AE1;
+}
+.inner-sixth .white{
+    color: black;
+    background-color: #fff;
+    margin-left: 15px;
+}
+.inner-seventh{
+    border-radius: 10px;
+    height: 99%;
+    width: 45.5%;
+    background-image: url(Homepage-SolarRoof-Desktop-US.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background-color: purple;
+}
+.inner-seventh h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 57px;
+    font-size: 3.1em;
+}
+.inner-seventh h6{
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.6em;
+}
+.inner-seventh button{
+    border-radius: 5px;
+    top: 65%;
+    left: 4%;
+    position: relative;
+    border: none;
+    width: 43%;
+    padding: 12px;
+}
+.inner-seventh .blue{
+    color: #fff;
+    background-color: #3E6AE1;
+}
+.inner-seventh .white{
+    color: black;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+.the-eight-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: -20px;
+}
+.the-eight-sec .inner-eight{
+    height: 90%;
+    width: 92%;
+    background-image: url(Homepage-Powerwall-Desktop-US.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.inner-eight h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 3.3em;
+}
+.inner-eight button{
+    border-radius: 5px;
+    position: relative;
+    top: 65%;
+    left: 30%;
+    border: none;
+    width: 20%;
+    padding: 12px;
+}
+.inner-eight .blue{
+    color: #fff;
+    background-color: #3E6AE1;
+}
+.inner-eight .white{
+    color: black;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+.the-nineth-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: -50px;
+}
+.the-nineth-sec .inner-nineth{
+    height: 90%;
+    width: 92%;
+    background-image: url(Homepage-Accessories-Desktop-US.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.inner-nineth h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 3.3em;
+}
+.inner-nineth button{
+    border-radius: 5px;
+    position: relative;
+    top: 65%;
+    left: 40%;
+    border: none;
+    width: 20%;
+    padding: 12px;
+}
+.inner-nineth .blue{
+    color: #fff;
+    background-color: #3E6AE1;
+}
+
+.the-tenth-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: -30px;
+}
+.the-tenth-sec .inner-tenth{
+    height: 95%;
+    width: 92%;
+
+}
+.inner-tenth .video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.inner-tenth h3{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+    margin-left: 2.5%;
+    color: beige;
+    font-size: 2.5em;
+}
+.inner-tenth button{
+    border-radius: 5px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+    margin-left: 3%;
+    border: none;
+    width: 15%;
+    padding: 12px;
+}
+.inner-tenth .blue{
+    color: #000;
+    background-color: #fff;
+}
+.the-eleventh-sec{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #616D71;
+    margin-top: -10px;
+}
+.the-eleventh-sec p{
+    font-weight: lighter;
+    margin-bottom: 8px;
+    font-size: 0.8em;
+    line-height: 1.3vw;
+}
+.the-eleventh-sec p span{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    color: #616D71;
+}
+.footer ul{
+    font-weight: 500;
+    font-size: 0.8em;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+
