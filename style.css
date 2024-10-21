@@ -16,8 +16,9 @@ html,body{
     height: 100vh;
     width: 100%;
 }
-.hero img{
-    height: 100vh;
+.hero{
+    background-image: url(Homepage-We-Robot-Hero-Desktop.jpg);
+    min-height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -626,5 +627,45 @@ nav .part-three img{
     align-items: center;
     gap: 12px;
 }
+@media screen and (max-width: 900px) {
+    .main {
+        height: 100%;
+        width: 100%;
+    }
+    .hero{
+        height: 100vh;
+        width: 100%;
+    }
+    .hero img{
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
 
-
+}
+@media (max-width: 800px){
+    section{
+        width: 100%;
+    }
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+        display: block;
+      }
+  }
+  @media (max-width: 400px) {
+    .main {
+        height: 100%;
+        width: 100%;
+    }
+    .hero{
+        height: 100vh;
+        width: 100%;
+    }
+    .hero img{
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+  }
